@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+	<head>
+		<meta charset="UTF-8">
+		<title>Alvin Kwok </title>
+		<link rel="stylesheet" type="text/css" href="./styles_Portfolio.css">
+	</head>
+
+<!-- Body -->
+<body class="Background"> 
+
+<!-- Navbar -->
+	<div class="Navbar">
+		<a class="active" href="#Home">Home</a> 
+		<a href="#About">About</a>
+		<a href="#GitHub">GitHub</a>
+		<a href="#Contact">Contact</a>
+	</div>
+
+<!-- Home -->
+		<br> <!-- Breaks inserted to add space between navbar and first heading -->
+		<br>
+
+<!-- Video -->
+	<div id="Home">
+		<video autoplay muted loop id="Typing_Video"> <!-- Makes the video play automatically, on a loop and with no sound -->
+			<source src="./Video/illuminated_keyboard.mp4" type="video/mp4">
+			Your browser does not support HTML5 video. <!-- Display message if video fails to run -->
+		</video>
+	</div>
+
+<!-- Video text --> 
+	<div class="Video_Text"> 
+		<h1 style="color:white;">Alvin Kwok's Portfolio</h1>
+			<p> 
+				<strong>
+					<center>
+						<q>Every generation has the obligation to free men's minds
+						<br>for a look at new worlds ... to look out from a higher
+						<br>plateau than the last generation.
+						</q>	
+						<br>-Ellison S. Onizuka<br>
+						<br>
+						My name is Alvin Kwok. Welcome to my portfolio website. On it, I will tell you about my background and experience.<br>
+						<br>Mahalo for stopping by and enjoy! 
+					</center>	
+				</strong>
+			</p> 
+	</div>
+
+<!-- About section -->
+	<div class="Row" id="About"> 
+		<div class="Column_2"> <!-- Left column -->
+			<img src="./Images/laptop.jpg" alt="Laptop">
+		</div>
+  
+		<div class="Column_1"> <!-- Right column -->
+			<h1>About</h2>
+                <p>Curently a part-time Software Developer at <a href="https:www.learncodinganywhere.com" target="_blank">The Tech Academy</a>.
+                    Training in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+                    
+                    <br><br>Previously, a Financialy Analyst at Foxconn Interconnect Technology, a worldwide leading manufacturing company,
+                    located in Santa Clara, California and headquarter in Taipei, Taiwan. 
+
+                    <br><br>Responsible for handling over millions lines of raw data and manipulating them into financial reports.
+                    Developed multiple billion-dollar revenue reports and over 25 multi-million dollar revenue reports.
+                    
+                    <br><br>For more information please see my <a href="https://www.linkedin.com/in/alvinkwok" target="_blank">LinkedIn</a> or 
+                    <a href="#Contact">Contact</a> me below!</p>
+		</div>
+	</div>
+
+<!-- GitHub section -->
+	<div class="Row" id="GitHub">
+		<div class="Column_1"> <!-- Left column -->
+			<h1>GitHub</h1>
+				<p>You can view my coding projects on my GitHub profile here:<br>
+                <center><a href="https://github.com/alvin808kwok" target="_blank">Alvin Kwok GitHub</a></center></p>
+                <br>
+                <p>You can also view my GitHub resume here:</p><br>
+                <center><a href="https://alvin808kwok.github.io" target="_blank">Alvin Kwok's Resume</a> </center>
+		</div>
+		
+		<div class="Column_2"> <!-- Right column -->
+			<a href="https://github.com/the-tech-academy" target="_blank"><img src="./Images/github.gif" alt="GitHub"></a>
+        </div>
+        
+	</div>
+
+<!-- Contact section -->
+	<div class="Row" id="Contact"> 
+		<div class="Column_3"> <!-- Contact image, left column -->
+			<img src="./Images/contact.jpg" alt="Contact_Image">
+		</div>
+	
+		<div class="Column_1"> <!-- Contact form, right "column" -->
+			<h1>Contact</h2> 
+				<form action="" method="get"> <!-- This specifies where to send the form data and how; it is left blank -->
+					<label>Name:</label>
+						<input type="text" placeholder="Please enter your name here">
+					<label>Phone & Email:</label>
+						<input type="text" id="Email" name="Email" placeholder="Please enter your phone number and email here">
+					<label>Message:</label>
+						<input type="text" id="Message" name="Message" placeholder="Please write your message here">
+						<input type="submit" value="Submit">
+				</form>
+		</div>
+	</div>
+	
+<!-- Footer section -->
+	<footer>
+		<p>
+			<center>&copy Prosper Consulting Inc.,  <a href="https://learncodinganywhere.com/">The Tech Academy</a></center><br>
+		</p>
+	</footer>
+
+		</body>
+
+</html>
